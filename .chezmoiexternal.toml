@@ -33,3 +33,4 @@
     url = "https://github.com/romkatv/powerlevel10k/archive/refs/tags/v1.16.1.tar.gz"
     exact = true
     stripComponents = 1
+    refreshPeriod = "168h"
