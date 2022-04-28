@@ -18,3 +18,4 @@
 	program = /usr/local/MacGPG2/bin/gpg2
 [init]
 	defaultBranch = main
+  templateDir = /Users/t887676/.git-template
