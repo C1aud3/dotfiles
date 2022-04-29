@@ -120,9 +120,9 @@ if [ -f '/Users/t887676/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/t887676
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/t887676/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/t887676/google-cloud-sdk/completion.zsh.inc'; fi
 
-# pack CLI autocomplete
-. $(pack completion --shell zsh)
-
 function gi() { curl -sLw "\n" https://www.toptal.com/developers/gitignore/api/$@ ;}
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# pack CLI autocomplete
+. $(pack completion --shell zsh)
