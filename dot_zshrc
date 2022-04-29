@@ -124,3 +124,5 @@ if [ -f '/Users/t887676/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/t
 . $(pack completion --shell zsh)
 
 function gi() { curl -sLw "\n" https://www.toptal.com/developers/gitignore/api/$@ ;}
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
