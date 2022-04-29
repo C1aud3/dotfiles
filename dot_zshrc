@@ -126,3 +126,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # pack CLI autocomplete
 . $(pack completion --shell zsh)
+
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
+export PATH="/Users/t887676/.rd/bin:$PATH"
+### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
