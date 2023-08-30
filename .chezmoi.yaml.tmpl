@@ -3,7 +3,6 @@
 {{- $github_user := "C1aud3" -}}
 
 {{- $codespaces:= env "CODESPACES" | not | not -}}
-sourceDir: "{{ .chezmoi.sourceDir | quote }}"
 
 data:
   name: {{ $name | quote }}
