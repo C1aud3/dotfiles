@@ -3,7 +3,7 @@
 {{- $email := "claude.grondin@telus.com" -}}
 {{- $github_user := "C1aud3" -}}
 
-sourceDir = "{{ .chezmoi.sourceDir }}"
+sourceDir = {{ .chezmoi.sourceDir | quote }}
 
 [data]
     codespaces = {{ $codespaces }}
