@@ -3,11 +3,10 @@
 {{- $github_user := "C1aud3" -}}
 
 {{- $codespaces:= env "CODESPACES" | not | not -}}
-sourceDir: {{ .chezmoi.sourceDir | quote }}
+sourceDir: "{{ .chezmoi.sourceDir | quote }}"
 
 data:
   name: {{ $name | quote }}
   email: {{ $email | quote }}
   github_user: {{ $github_user | quote }}
   codespaces = {{ $codespaces }}
-  
