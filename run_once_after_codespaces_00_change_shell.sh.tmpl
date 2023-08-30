@@ -1,0 +1,6 @@
+{{- if .codespaces -}}
+#!/bin/sh
+
+sudo chsh -s $(which zsh) $(whoami)
+
+{{- end -}}
